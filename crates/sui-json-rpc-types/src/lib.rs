@@ -15,6 +15,7 @@ pub use sui_move::*;
 pub use sui_object::*;
 pub use sui_protocol::*;
 pub use sui_transaction::*;
+pub use sui_mev::*;
 use sui_types::base_types::ObjectID;
 use sui_types::dynamic_field::DynamicFieldInfo;
 
@@ -34,6 +35,7 @@ mod sui_move;
 mod sui_object;
 mod sui_protocol;
 mod sui_transaction;
+mod sui_mev;
 
 pub type DynamicFieldPage = Page<DynamicFieldInfo, ObjectID>;
 /// `next_cursor` points to the last item in the page;

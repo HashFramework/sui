@@ -51,6 +51,7 @@ pub mod read_api;
 mod routing_layer;
 pub mod transaction_builder_api;
 pub mod transaction_execution_api;
+pub mod mev_api;
 
 pub const APP_NAME_HEADER: &str = "app-name";
 

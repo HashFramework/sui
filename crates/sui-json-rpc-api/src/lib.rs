@@ -45,6 +45,7 @@ mod move_utils;
 mod read;
 mod transaction_builder;
 mod write;
+mod mev;
 
 const RPC_QUERY_MAX_RESULT_LIMIT: &str = "RPC_QUERY_MAX_RESULT_LIMIT";
 const DEFAULT_RPC_QUERY_MAX_RESULT_LIMIT: usize = 50;
